@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>John Louie N. Jumaoas — Student Portfolio</title>
+<meta name="description" content="Personal portfolio of John Louie N. Jumaoas, a college student studying BS Information Technology at De La Salle John Bosco College.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,600;12..96,700&family=Karla:ital,wght@0,400;0,500;0,600;1,400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="nav" id="nav">
+  <div class="nav-in">
+    <a class="mark" href="#top"><span class="dot"></span><span>John Louie Jumaoas</span></a>
+    <nav aria-label="Sections">
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+    <button class="icon-btn burger" id="burger" aria-expanded="false" aria-controls="mobile-menu" aria-label="Open menu">
+      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><path d="M3 6h18M3 12h18M3 18h18"/></svg>
+    </button>
+    <button class="icon-btn" id="theme" aria-label="Switch to dark theme">
+      <svg id="theme-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8z"/></svg>
+    </button>
+  </div>
+  <div class="mobile-menu" id="mobile-menu">
+    <ul>
+      <li><a href="#about">About</a></li>
+      <li><a href="#education">Education</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </div>
+</header>
+
+<main>
+
+<section class="hero" id="top">
+  <div class="wrap">
+    <!-- PHOTO: put your image file next to this HTML file, then change src below -->
+    <div class="portrait">
+      <img src="image/download.jpg" alt="John Louie N. Jumaoas" onerror="this.style.display='none'; this.parentElement.classList.add('empty')">
+    </div>
+    <h1>John Louie N. Jumaoas</h1>
+    <p class="role">College Student · BS Information Technology</p>
+    <p class="lede">I'm a college student studying BS Information Technology at De La Salle John Bosco College. I'm most curious about Artificial Intelligence and Technology.</p>
+    <div class="hero-cta">
+      <a class="btn btn-primary" href="#projects">View my projects</a>
+      <a class="btn btn-ghost" href="#contact">Contact me</a>
+    </div>
+    <div class="hero-meta">
+      <div><b>2nd Year</b>Current standing</div>
+      <div><b>2028</b>Expected graduation</div>
+      <div><b>Bislig City</b>Based in</div>
+    </div>
+  </div>
+</section>
+
+<section id="about">
+  <div class="wrap">
+    <div class="sec-head rise"><h2>About me</h2></div>
+    <div class="card about-body rise">
+      <p>Hi — I'm John Louie, a 2nd Year BS Information Technology student at De La Salle John Bosco College. I got curious about how apps are actually built after making my first one in senior high, and that curiosity has held up since.</p>
+      <p>What I care about is making things that are genuinely useful to people around me. Long term I'd like to work in the Networking field — for now, I'm focused on building a body of work I'm actually proud of.</p>
+    </div>
+  </div>
+</section>
+
+<section id="education">
+  <div class="wrap">
+    <div class="sec-head rise"><h2>Education</h2></div>
+    <div class="timeline">
+      <article class="tl-item rise">
+        <p class="tl-when">2025 – 2028, expected</p>
+        <h3>BS Information Technology</h3>
+        <p class="tl-where">De La Salle John Bosco College · Currently 2nd Year</p>
+      </article>
+      <article class="tl-item rise">
+        <p class="tl-when"><span>2023</span> – <span>2025</span></p>
+        <h3>Senior High School — STEM</h3>
+        <p class="tl-where"><span>De La Salle John Bosco College</span></p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section id="skills">
+  <div class="wrap">
+    <div class="sec-head rise"><h2>Skills</h2></div>
+    <div class="grid-2">
+      <div class="card skill-group rise">
+        <h3>Technical</h3>
+        <ul class="skill-list">
+          <li><span>HTML &amp; CSS</span><span class="level learning">Learning</span></li>
+          <li><span>Python</span><span class="level learning">Learning</span></li>
+          <li><span>Networking Fundamentals</span><span class="level learning">Learning</span></li>
+        </ul>
+      </div>
+      <div class="card skill-group rise">
+        <h3>Soft skills</h3>
+        <ul class="skill-list">
+          <li>Communication<span class="level">Comfortable</span></li>
+          <li>Teamwork<span class="level">Comfortable</span></li>
+          <li>Time management<span class="level">Practising</span></li>
+          <li>Problem solving<span class="level">Practising</span></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="projects">
+  <div class="wrap">
+    <div class="sec-head rise"><h2>Projects</h2></div>
+    <div class="projects">
+      <div class="project-empty rise" style="grid-column:1/-1">
+        <div>
+          <h3>Nothing here yet</h3>
+          <p>I don't have any academic projects to show right now — I'll add them here as I complete them.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="contact">
+  <div class="wrap">
+    <div class="sec-head rise"><h2>Get in touch</h2><p>Open to internships, OJT, and student projects.</p></div>
+    <div class="contact-grid">
+      <div class="rise">
+        <a class="link-row" href="mailto:lowwiii09@gmail.com">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3.5 7 8.5 6 8.5-6"/></svg>
+          <span><b>Email</b><span>lowwiii09@gmail.com</span></span>
+        </a>
+      </div>
+      <div class="card rise">
+        <form id="contact-form" novalidate>
+          <div>
+            <label for="f-name">Your name</label>
+            <input id="f-name" name="name" type="text" autocomplete="name">
+          </div>
+          <div>
+            <label for="f-email">Your email</label>
+            <input id="f-email" name="email" type="email" autocomplete="email">
+          </div>
+          <div>
+            <label for="f-msg">Message</label>
+            <textarea id="f-msg" name="message"></textarea>
+          </div>
+          <button class="btn btn-primary" type="submit">Send message</button>
+          <p class="form-status" id="form-status" role="status" aria-live="polite"></p>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<footer>© <span id="year"></span> John Louie N. Jumaoas</footer>
+
+<script>
+(function(){
+  "use strict";
+  document.getElementById("year").textContent = new Date().getFullYear();
+
+  var root = document.documentElement, themeBtn = document.getElementById("theme"), icon = document.getElementById("theme-icon");
+  var sun = '<circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"/>';
+  var moon = '<path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8z"/>';
+  function currentlyDark(){ var s=root.getAttribute("data-theme"); if(s) return s==="dark"; return window.matchMedia("(prefers-color-scheme: dark)").matches; }
+  function paint(){ icon.innerHTML = currentlyDark()?sun:moon; }
+  try{ var saved=localStorage.getItem("portfolio-theme"); if(saved==="dark"||saved==="light") root.setAttribute("data-theme",saved); }catch(e){}
+  paint();
+  themeBtn.addEventListener("click", function(){
+    var next = currentlyDark()?"light":"dark";
+    root.setAttribute("data-theme", next);
+    try{ localStorage.setItem("portfolio-theme", next); }catch(e){}
+    paint();
+  });
+
+  var nav = document.getElementById("nav");
+  var onScroll = function(){ nav.classList.toggle("stuck", window.scrollY>8); };
+  onScroll(); window.addEventListener("scroll", onScroll, {passive:true});
+
+  var burger = document.getElementById("burger"), menu = document.getElementById("mobile-menu");
+  burger.addEventListener("click", function(){
+    var open = menu.classList.toggle("open");
+    burger.setAttribute("aria-expanded", String(open));
+  });
+  menu.addEventListener("click", function(e){ if(e.target.closest("a")) menu.classList.remove("open"); });
+
+  if("IntersectionObserver" in window){
+    var reveal = new IntersectionObserver(function(entries,obs){
+      entries.forEach(function(en){ if(en.isIntersecting){ en.target.classList.add("seen"); obs.unobserve(en.target);} });
+    }, {rootMargin:"0px 0px -8% 0px", threshold:.05});
+    document.querySelectorAll(".rise").forEach(function(el,i){ el.style.transitionDelay=(Math.min(i%4,3)*60)+"ms"; reveal.observe(el); });
+  } else {
+    document.querySelectorAll(".rise").forEach(function(el){ el.classList.add("seen"); });
+  }
+
+  var form = document.getElementById("contact-form"), status = document.getElementById("form-status");
+  function fail(msg, field){ status.textContent=msg; status.setAttribute("data-state","error"); if(field) field.focus(); }
+  form.addEventListener("submit", function(e){
+    e.preventDefault();
+    var name=form.name.value.trim(), email=form.email.value.trim(), msg=form.message.value.trim();
+    if(!name) return fail("Add your name so I know who's writing.", form.name);
+    if(!/^[^@\s]+@[^@\s]+\.[^@\s]+$/.test(email)) return fail("That email address looks incomplete.", form.email);
+    if(msg.length<10) return fail("Write a little more so I can reply usefully.", form.message);
+    var to="lowwiii09@gmail.com";
+    status.setAttribute("data-state","ok");
+    status.textContent="Opening your email app with the message ready to send.";
+    window.location.href="mailto:"+encodeURIComponent(to)+"?subject="+encodeURIComponent("Portfolio message from "+name)+"&body="+encodeURIComponent(msg+"\n\n—\n"+name+"\n"+email);
+  });
+})();
+</script>
+</body>
+</html>
